@@ -103,13 +103,34 @@
             transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
+*{
+  box-sizing: border-box;
 
+}
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #110F15; */
+
+}
+
+#home{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,7 +144,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #110F15;
 }
 
 .checkbox {
@@ -139,6 +159,7 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+margin-top: 250px;
 }
 
 .checkbox:hover {
@@ -261,8 +282,8 @@ body {
      
      width: 60vw;
 height: 40vw;
-max-width: 380px;
-max-height: 250px;
+max-width: 600px;
+max-height: 450px;
 margin: 0;
 }
 .lineone {
@@ -289,12 +310,7 @@ font-style: italic; */
 
 body {
 	background: #8FBC8F;
-	color: #333;
-	font: 100% Lato, Arial, Sans Serif;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #background-wrap {
@@ -532,4 +548,47 @@ body {
 	left: 10px;
 	position: absolute;
 	width: 180px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  /* overflow: hidden; */
+  background-color: #66CDAA;
+}
+
+li {
+  display: inline-block;
+  border-right:1px solid #bbb;
+  padding: 14px 16px;
+  margin-right: 10px;
+}
+
+li:last-child {
+  border-right: none;
+  margin-right: 0px;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+li:hover:not(.active) {
+  background-color: #111;
+}
+
+/* .active {
+  background-color: #04AA6D;
+} */
+
+
+#photos{
+  /* margin-top: 150px; */
+
 }
