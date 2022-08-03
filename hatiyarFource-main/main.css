@@ -152,7 +152,7 @@ body {
   font-size: .9rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: black;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   -webkit-user-select: none;
@@ -309,7 +309,7 @@ font-style: italic; */
 
 
 body {
-	background: #8FBC8F;
+	background: #B0E0E6;
   scroll-behavior: smooth;
 }
 
@@ -517,9 +517,10 @@ body {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	
-    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(127, 255, 212);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(127, 255, 212);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(127, 255, 212);
+  background-color: #B0E0E6;
 	
     height: 200px;
 	position: absolute;
